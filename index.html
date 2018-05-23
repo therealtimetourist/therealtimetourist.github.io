@@ -1,65 +1,149 @@
+
 <!DOCTYPE html>
-<html lang="en-US">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Don Bedwell Portfolio</title>
-		<link rel="stylesheet" href="assets/css/reset.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		
-		<header>
-			<div class="container">
-				<div id="logo">
-					<h1>Don Bedwell</h1>
-				</div>
-				<nav>
-					<ul>
-						<li><a href="index.html">about</a></li>
-						<li><a href="portfolio.html">portfolio</a></li>
-						<li><a href="contact.html">contact</a></li>
-					</ul>
-				</nav>
-			</div>	
-		</header>
-		
-		<main class="container">
-			<section>
-				<article id="main-content" class="content-area">
-					<h2>about me</h2>
-					<hr>
-					<img class="photo-wrapp" alt="Don Bedwell: The Man, The Myth, The Ledgend" src="assets/images/donb.jpg" width="200px">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac lectus viverra, sollicitudin sapien vel, vestibulum purus. Praesent mattis cursus quam ac porttitor. Pellentesque ullamcorper a magna vel sagittis. Curabitur eget dictum risus, at tempor arcu. Duis quis arcu vel urna accumsan consectetur. Sed at metus sed mi vestibulum congue non quis ante. Curabitur magna ligula, facilisis vel urna a, pulvinar consequat lectus. Curabitur vehicula maximus massa, in convallis dolor viverra a. Pellentesque vel leo velit. Nunc suscipit consequat velit ultrices convallis.
-					</p>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Portfolio (Bootstrap)">
+    <meta name="author" content="Don Bedwell">
+    <link rel="icon" href="favicon.ico">
 
-					<p>
-						Aenean sed vehicula erat, nec semper ex. In hac habitasse platea dictumst. Vestibulum quis tempor sem. Morbi scelerisque elit massa, id aliquam felis tempor nec. Morbi iaculis felis quis erat pharetra gravida. Maecenas sit amet ex ac leo convallis venenatis eget sed dui. Aliquam id accumsan libero. Mauris lacus elit, tempus sed nisl id, eleifend bibendum justo. Pellentesque pellentesque metus et libero dapibus tristique. Sed eget auctor est. Maecenas nisl mi, dapibus quis magna sit amet, porta molestie magna. Cras rutrum, ante eget efficitur efficitur, neque leo eleifend enim, eu tempus mi neque ut libero. Vestibulum non sollicitudin purus. Donec venenatis vehicula sagittis. Donec convallis fringilla mi, placerat laoreet dolor ullamcorper id.
-					</p>
+    <title>About | Portfolio (Bootstrap)</title>
 
-					<p>
-						Donec quis aliquet augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent id lacus consectetur, cursus tortor non, malesuada erat. Duis non posuere erat. Aliquam porttitor blandit sollicitudin. Sed non diam dui. Donec nec tristique leo, non molestie arcu. Suspendisse urna sem, pellentesque nec libero eu, semper feugiat eros. Praesent pulvinar nibh in ornare dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus orci urna, quis efficitur quam pretium laoreet. Pellentesque sit amet metus elementum, malesuada dolor non, eleifend augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque vel viverra sem. Fusce ornare metus eu neque feugiat eleifend.
-					</p>
-				</article>
-				
-				<aside class="content-area">
-					<h3>connect with me</h3>
-					<hr>
-					<a target="_blank" href=""><img alt="GitHub" src="assets/images/ico_github.png"></a>
-					<a target="_blank" href=""><img alt="LinkedIn" src="assets/images/ico_linkedin.png"></a>
-					<a target="_blank" href=""><img alt="StackOverflow" src="assets/images/ico_stackoverflow.png"></a>	
-				</aside>
-			</section>
-		</main>
+    <!-- Latest compiled and minified CSS
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-		<footer>
-			Copyright &copy; 2017 Don Bedwell
-		</footer>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-	</body>
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="http://getbootstrap.com/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="https://http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" style="background-color: #4aaaa5; color:#fff">Don Bedwell</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">about</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8" id="main">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <h2>About Me</h2>
+                <div class="col-md-5" style="padding:0px;">
+                  <img class="img-responsive" src="img/donb.jpg" width="320" alt="placeholder">
+                </div>
+                <div class="col-md-7">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ex dui, 
+                    feugiat id eros ut, condimentum pulvinar eros. Fusce convallis in mi 
+                    vitae fermentum. Aenean vitae lacus lacus. Praesent scelerisque sem 
+                    dui, sed congue ex semper non. Etiam vitae elit ultrices sapien pretium 
+                    mollis dignissim eget metus. Cras nec porta risus, ut efficitur quam. 
+                    Morbi lobortis non arcu ut suscipit. Etiam condimentum dolor eu ipsum 
+                    pulvinar, eu efficitur lorem consectetur. Mauris congue erat vel 
+                    placerat porta. Morbi eget velit eget dolor tristique euismod vitae quis 
+                    ante.
+                  </p>
+                  <p>
+                    Etiam feugiat nibh vitae euismod varius. Nunc tristique congue velit eget 
+                    interdum. Morbi iaculis pharetra tincidunt. Praesent vestibulum rhoncus 
+                    pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                    Vestibulum tempus scelerisque bibendum. Nam sed ipsum lectus. Duis id mi 
+                    lacinia eros placerat rutrum sed sit amet risus. Donec nec nisi viverra 
+                    ipsum porta convallis eu eget erat. Vivamus ut dui vitae lacus suscipit 
+                    blandit sed sit amet augue.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">contact me</h3>
+            </div>
+            <div class="panel-body">
+              <a target="_blank" href="https://github.com/therealtimetourist/"><img alt="Git Hub" src="img/ico_github.png"></a>
+              <a target="_blank" href="https://www.linkedin.com/in/don-bedwell-9218b28/"><img alt="Linked In" src="img/ico_linkedin.png"></a>
+              <a target="_blank" href="http://stackoverflow.com/users/7823644/don-bedwell"><img alt="Stack Overflow" src="img/ico_stackoverflow.png"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer container-fluid">
+      <div class="container">
+        <p class="text-muted text-center footer-text-color">&copy; 2017 Don Bedwell</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
